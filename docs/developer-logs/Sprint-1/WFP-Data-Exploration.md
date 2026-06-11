@@ -1,8 +1,6 @@
 # Developer Log — Entry 02: WFP Data Exploration
 
-**Date:** 06-10-2026
-**Sprint:** Sprint 1
-**Status:** Completed 
+**Date:** 06-10-2026 | **Sprint:** Sprint 1 | **Status:** Completed 
 
 ---
 ## What I did
