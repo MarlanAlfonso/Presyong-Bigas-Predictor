@@ -1,7 +1,7 @@
 import pandas as pd
 
 RAW_PATH = "data/raw/wfp_philippines_food_prices.csv"
-OUT_PATH = "data/processed/wfp_philippines_food_prices.csv"
+OUT_PATH = "data/processed/wfp_ncr_food_prices.csv"
 
 df = pd.read_csv(RAW_PATH)
 
