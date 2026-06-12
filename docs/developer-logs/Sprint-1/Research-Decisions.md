@@ -1,6 +1,6 @@
 # Developer Log — Entry 03: Research Decisions
  
-**Date:** 2026-06-11 | **Sprint:** Sprint 1 | **Status:** Completed
+**Date:** 06-11-2026 | **Sprint:** Sprint 1 | **Status:** Completed
 
 ---
 

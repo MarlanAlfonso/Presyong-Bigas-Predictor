@@ -1,6 +1,6 @@
 # Developer Log — Entry 00: Environment Setup
 
-**Date:** 2026-06-05 | **Sprint:** Pre-Sprint (Before Sprint 1) | **Status:** Completed
+**Date:** 06-05-2026 | **Sprint:** Pre-Sprint (Before Sprint 1) | **Status:** Completed
 
 ---
 
