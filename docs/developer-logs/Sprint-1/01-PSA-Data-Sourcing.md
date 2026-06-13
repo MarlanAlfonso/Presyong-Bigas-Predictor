@@ -17,6 +17,7 @@ https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2M__2018/0042M4ARA01.px/table/
 
 ### 2. Selected Filters
 - Applied the following filters on the PSA Openstat table before downloading: 
+
 | Filter | Selection |
 |---|---|
 | Geolocation | NCR / Metro Manila |
