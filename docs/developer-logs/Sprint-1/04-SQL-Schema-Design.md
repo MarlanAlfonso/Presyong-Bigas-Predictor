@@ -4,7 +4,7 @@
 ---
 
 ## What I Did 
-Designed and committed the SQLite database schema for the "Sinaing" Predictor project. The schema will store monthly retail rice from PSA and WFP in a single normalized table
+Designed and committed the SQLite database schema for the Presyong Bigas Predictor project. The schema will store monthly retail rice from PSA and WFP in a single normalized table
 
 ### 1. Schema Design Decisions 
 **One table, not three** All three rice comodities (well-milled, regualar-milled, special) share identical attributes (date, price, source), so separate tables would violate 3NF and complicate cross-commodity queries. A single `rice_prices` table with a `commodity`column is the standard approach for time series price databases

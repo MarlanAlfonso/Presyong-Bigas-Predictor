@@ -19,8 +19,8 @@ Chose Desktop as the project location and created the root folder.
 
 ```
 cd C:\Users\Marlan Alfonso\Desktop
-mkdir Sinaing-Predictor
-cd Sinaing-Predictor
+mkdir Presyong-Bigas-Predictor
+cd Presyong-Bigas-Predictor
 ```
 
 ### 3. Created Full Folder Structure

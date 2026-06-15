@@ -1,4 +1,4 @@
--- Sinaing Predictor - Database Schema
+-- Presyong Bigas Predictor - Database Schema
 -- Table: rice_prices 
 -- One row = one commodity x one month x one source 
 
