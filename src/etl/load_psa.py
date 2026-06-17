@@ -9,7 +9,7 @@ import pandas as pd
 # Defaults
 PROJECT_ROOT = Path(__file__).resolve().parents[2]   # src/etl/ → project root
 DEFAULT_CSV  = PROJECT_ROOT / "data" / "raw" / "psa_retail_rice_prices_ncr_2018_2025.csv"
-DEFAULT_DB   = PROJECT_ROOT / "db"  / "sinaing.db"
+DEFAULT_DB   = PROJECT_ROOT / "db"  / "presyong_bigas.db"
 
 # Maps raw PSA commodity strings - DB commodity codes
 COMMODITY_MAP: dict[str, str] = {
@@ -108,7 +108,7 @@ def _row_count(cur: sqlite3.Cursor) -> int:
 
 # CLI entry point
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Load PSA retail rice prices into sinaing.db")
+    parser = argparse.ArgumentParser(description="Load PSA retail rice prices into presyong_bigas.db")
     parser.add_argument("--csv", type=Path, default=DEFAULT_CSV,
                         help="Path to PSA CSV file")
     parser.add_argument("--db",  type=Path, default=DEFAULT_DB,

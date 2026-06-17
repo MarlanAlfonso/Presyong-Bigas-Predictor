@@ -1,8 +1,8 @@
 """
-Cleans the PSA retail rice prices (long-format from sinaing.db or load_psa output) and writes data/processed/ncr_rice_prices_clean.csv.
+Cleans the PSA retail rice prices (long-format from presyong_bigas.db or load_psa output) and writes data/processed/ncr_rice_prices_clean.csv.
 
 Steps
-1. Load all 288 rows from sinaing.db (PSA, NCR only)
+1. Load all 288 rows from presyong_bigas.db (PSA, NCR only)
 2. Ensure a complete monthly date spine per commodity (Jan 2018 – Dec 2025)
 3. Forward-fill any gaps in price_per_kg
 4. Detect outliers per commodity using IQR (1.5x fence)
@@ -25,7 +25,7 @@ import pandas as pd
 
 # Paths 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_DB   = PROJECT_ROOT / "db"  / "sinaing.db"
+DEFAULT_DB   = PROJECT_ROOT / "db"  / "presyong_bigas.db"
 DEFAULT_OUT  = PROJECT_ROOT / "data" / "processed" / "ncr_rice_prices_clean.csv"
 
 COMMODITIES  = ["well_milled", "regular_milled", "special"]

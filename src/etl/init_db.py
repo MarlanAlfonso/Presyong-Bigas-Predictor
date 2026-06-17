@@ -1,7 +1,7 @@
 # Initializes the SQLite database
 """
 What it does:
-    1. Creates db/sinaing.db if it does not exist
+    1. Creates db/presyong_bigas.db if it does not exist
     2. Executes db/schema.sql (CREATE TABLE, indexes, view)
     3. Confirms the table and view exist
     4. Prints a summary
@@ -12,7 +12,7 @@ from pathlib import Path
 
 # Paths 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]  # src/etl/ → project root
-DB_PATH      = PROJECT_ROOT / "db" / "sinaing.db"
+DB_PATH      = PROJECT_ROOT / "db" / "presyong_bigas.db"
 SCHEMA_PATH  = PROJECT_ROOT / "db" / "schema.sql"
 
 
